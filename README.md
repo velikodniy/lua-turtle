@@ -6,7 +6,7 @@ Program was written on Vala with Gtk+ toolkit.
 
 Sample program:
 
-```vala
+```lua
 rotate(45)
 move(150);
 while true do
