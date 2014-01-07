@@ -1,8 +1,8 @@
-Simple program with triangle-shaped turtle controlled by program on Lua programming language.
+Simple program with triangle-shaped turtle controlled by a program in Lua.
 
 Turtle knows only two commands: rotate(*degrees*) and move(*length*).
 
-Program was written on Vala with Gtk+ toolkit.
+Program was written in Vala with Gtk+ toolkit.
 
 Sample program:
 
