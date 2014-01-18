@@ -33,7 +33,6 @@ void on_start (Button sender) {
 	// Set hook for execution stopping
 	Lua.Debug debug;
 	vm.set_hook((vm, ref debug) => {
-			stdout.flush();
 			if (stopper.is_cancelled()) {
 				vm.push_string("Stopped on line " + debug.current_line.to_string());
 				vm.error();
